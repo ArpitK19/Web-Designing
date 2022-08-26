@@ -1,0 +1,124 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.main
+{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: auto;
+}
+.logo
+{
+    float: left;
+}
+
+.logo h1 a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    line-height: 100px;
+    padding-left: 10px;
+
+}
+.A
+{
+    color: red;
+    font-size: 50px;
+}
+.nav
+{
+    float: left;
+    position: relative;
+    left: 30%;
+    width: auto;
+}
+li
+{
+    list-style-type: none;
+    display: inline-block;
+    padding: 50px 30px;
+    
+}
+li a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+li a:hover
+{
+    color: red;
+    padding: 0%;
+    margin: 0%;
+}
+.section
+{
+    height: 500px;
+    width: auto;
+}
+.black
+{
+    -webkit-filter: grayscale(100);
+}
+.black:hover
+{
+    -webkit-filter: grayscale(0);
+}
+.intro h1
+{
+   text-align: center;
+   margin-top: 5%;
+}
+.slider
+{
+    margin-left: 100%;
+    margin-top: 10%;
+}
+.f1
+{
+    margin-top: 2%;
+    float: left;
+    width: 20%;
+    text-align: justify;
+    margin-left: 10%;
+}
+.f2
+{
+    margin-top: 2%;
+    float: left;
+    width: 20%;
+    text-align: justify;
+    margin-left: 10%;
+}
+.f3
+{
+    margin-top: 2%;
+    float: left;
+    width: 20%;
+    text-align: justify;
+    margin-left: 10%;
+}
+.gallery
+{
+    height: 310px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:20%;
+    /* background-color: lightpink; */
+    margin-right: 20%;
+}
+.footer_main
+{
+    margin-top: 5%;
+    background-color: lightgrey;
+    height: 250px;
+    width: auto;
+}
