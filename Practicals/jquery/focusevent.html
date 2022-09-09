@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("input").focus(function()
+            {
+                $(this).css("border-color","blue");
+            });
+        });
+
+        $(document).ready(function(){
+  $("p").on({
+    mouseenter: function(){
+      $(this).css("background-color", "lightgray");
+    },  
+    mouseleave: function(){
+      $(this).css("background-color", "lightblue");
+    }, 
+    click: function(){
+      $(this).css("background-color", "yellow");
+    }  
+  });
+});
+    </script>
+</head>
+<body>
+   Name : <input type="text">
+
+   <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum sunt deleniti hic sapiente, ipsam ab? Nesciunt explicabo quos perferendis consequuntur. Amet ipsa dolores perspiciatis cum culpa dicta eos illum accusantium?
+   </p>
+
+</body>
+</html>
