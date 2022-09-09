@@ -1,0 +1,494 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main {
+    background-color: #212934;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+.infoleft {
+    float: left;
+    padding-left: 150px;
+    color: white;
+}
+
+.infoleft i {
+    color: #CFD6E1;
+    padding: 0px 10px;
+}
+
+.iconright {
+    float: right;
+    padding-right: 150px;
+}
+
+.iconright i {
+    color: #CFD6E1;
+    padding: 3px 5px;
+}
+
+.header {
+    background-color: white;
+    height: 100px;
+    position: relative;
+}
+
+.logo h3 {
+    color: #59AB6E;
+    font-size: 50px;
+    float: left;
+    padding-left: 160px;
+    line-height: 100px;
+}
+
+.nav {
+    float: left;
+}
+
+.nav ul {
+    line-height: 100px;
+    margin-left: 200px;
+
+}
+
+.nav ul li {
+    list-style: none;
+    float: left;
+    padding: 0px 50px;
+    font-size: 20px;
+
+}
+
+.nav ul li:hover {
+    color: lightgreen;
+}
+
+.icons {
+    float: right;
+    padding-right: 160px;
+}
+
+.icons a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 100px;
+    padding: 0px 10px;
+
+}
+
+.image {
+    background-color: #EFEFEF;
+    height: 650px;
+    position: relative;
+}
+
+.image img {
+    position: absolute;
+    right: 130px;
+}
+
+.imagetext {
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid black; */
+    top: 150px;
+    left: 170px;
+}
+
+.imagetext h1:first-child {
+    padding-bottom: 10px;
+    color: #59AB6E;
+    font-size: 50px;
+    padding-top: 20px;
+    display: inline;
+    font-weight: 500;
+
+}
+
+.imagetext h1:last-child {
+    padding-bottom: 10px;
+    color: #59AB6E;
+    font-size: 50px;
+    padding-top: 20px;
+    display: inline;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.imagetext h2 {
+    font-size: 40px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.imagetext p {
+    font-size: 20px;
+    color: gray;
+}
+
+.categories {
+    height: 800px;
+    background-color: white;
+    position: relative;
+}
+
+
+.categories .section1 {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+.categories .section1 p:first-child {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.categories .section1 p:last-child {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.categories .imagesec {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+
+
+}
+
+.imagesec .image1 p,
+.imagesec .image2 p,
+.imagesec .image3 p {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.imagesec .image1 p:last-child,
+.imagesec .image2 p:last-child,
+.imagesec .image3 p:last-child {
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: rgb(99, 194, 99);
+    color: white;
+
+}
+
+.imagesec .image1 img {
+    border-radius: 50%;
+    border: 1px solid rgb(186, 185, 185);
+}
+
+.imagesec .image2 img {
+    border-radius: 50%;
+    margin: 0px -70px;
+    border: 1px solid rgb(186, 185, 185);
+}
+
+.imagesec .image3 img {
+    border-radius: 50%;
+    border: 1px solid rgb(186, 185, 185);
+}
+
+.products {
+    height: 800px;
+    background-color: #E9EEF5;
+}
+
+.products .parapro {
+    width: 581px;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+.products .parapro p:first-child {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.products .parapro p:last-child {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #212529;
+}
+
+.proimages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+
+
+
+.proimages .proimages1 {
+    height: 500px;
+    background-color: white;
+    border: 1px solid rgb(211, 210, 210);
+    width: 354px;
+
+}
+
+.protext,
+.protext2,
+.protext3 {
+    padding: 16px;
+}
+
+.protext ul,
+.protext2 ul,
+.protext3 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.protext ul li,
+.protext2 ul li,
+.protext3 ul li {
+    list-style: none;
+    color: yellow;
+}
+
+
+
+.proimages .proimages1 .protext .lasttext h2,
+.proimages .proimages2 .protext2 .lasttext h2,
+.proimages .proimages3 .protext3 .lasttext h2 {
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 15px;
+}
+
+.proimages .proimages1 .protext .lasttext p,
+.proimages .proimages2 .protext2 .lasttext p,
+.proimages .proimages3 .protext3 .lasttext p {
+    margin-top: 10px;
+
+}
+
+.proimages .proimages1 .protext .lasttext p:last-child,
+.proimages .proimages2 .protext2 .lasttext p:last-child,
+.proimages .proimages3 .protext3 .lasttext p:last-child {
+    color: rgb(186, 186, 186);
+}
+
+.proimages .proimages2 {
+    height: 500px;
+    background-color: white;
+    margin: 0px -100px;
+    border: 1px solid rgb(211, 210, 210);
+    width: 354px;
+
+}
+
+.proimages .proimages3 {
+    height: 500px;
+    background-color: white;
+    border: 1px solid rgb(211, 210, 210);
+    width: 354px;
+
+}
+
+.footer {
+    height: 400px;
+    background-color: #212934;
+    display: flex;
+
+    justify-content: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.footer .shop {
+    height: 384px;
+    /* background-color: yellow; */
+    width: 354px;
+    padding-top: 48px;
+    margin-left: 10px;
+}
+
+.footer .shop h2 {
+    color: green;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(52, 52, 52);
+}
+
+.footer .product h2,
+.footer .info h2 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(52, 52, 52);
+    color: #CFD6E1;
+
+}
+
+.footer .shop ul,
+.footer .info ul,
+.footer .product ul {
+    padding-top: 10px;
+}
+
+.footer .shop ul li,
+.footer .info ul li,
+.footer .product ul li {
+    list-style: none;
+    margin: 18px 0px;
+    font-size: 18px;
+    color: #CFD6E1;
+}
+
+.footer .shop ul li:hover {
+    color: #198754;
+}
+
+.footer .info ul li:hover {
+    color: #198754;
+}
+
+.footer .product ul li:hover {
+    color: #198754;
+}
+
+.footer .product {
+    height: 384px;
+
+    width: 354px;
+    margin: 0px -80px;
+    padding-top: 48px;
+    /* background-color: yellow; */
+
+
+}
+
+
+.footer .info {
+    height: 384px;
+
+    width: 354px;
+    padding-top: 48px;
+    /* background-color: yellow; */
+
+
+}
+
+.footericon {
+    height: 300px;
+    background-color: #212934;
+    padding-top: 20px;
+    /* background-color: yellow; */
+}
+
+.footericon .foneicon {
+    width: 83%;
+    margin: auto;
+    /* background-color: blue; */
+    border-top: 1px solid rgb(52, 52, 52);
+
+
+}
+
+.footericon .foneicon ul {
+    /* padding-left: 100px; */
+    padding-top: 30px;
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footericon .foneicon ul li {
+    list-style: none;
+    display: inline;
+
+
+
+}
+
+.footericon .foneicon ul li i {
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 0px 10px;
+    border-radius: 50%;
+    border: 1px solid rgb(52, 52, 52);
+    color: #CFD6E1;
+}
+
+.footericon .foneicon ul li i:hover {
+    background-color: #CFD6E1;
+    color: #212934;
+}
+
+.footericon .foneicon ul .specli p {
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    width: 120px;
+    background-color: #198754;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.footericon .foneicon ul .specli input {
+    height: 50px;
+    margin-right: 0px;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    background-color: transparent;
+    border: 1px solid rgb(52, 52, 52);
+    width: 300px;
+
+}
+
+.copyright {
+    margin-top: 50px;
+    height: 150px;
+    background-color: #1d242d;
+}
+.copyright p{
+    color: white;
+    font-size: 20px;
+    padding: 65px 10px 0px 150px;
+}
+.copyright p a{
+    color: white;
+}
